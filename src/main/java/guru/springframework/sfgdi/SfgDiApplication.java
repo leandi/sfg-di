@@ -30,7 +30,7 @@ public class SfgDiApplication {
 
 		System.out.println("------------Constructor");
 		ConstructionInjectedController constructionInjectedController = (ConstructionInjectedController) ctx.getBean("constructionInjectedController");
-		System.out.println(setterInjectedController.getGreeting());
+		System.out.println(constructionInjectedController.getGreeting());
 	}
 
 }
